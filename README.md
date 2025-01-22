@@ -17,7 +17,7 @@ git  --version
 `
 git status
 git add index.thml or git add .
-git commit -m "Mensagem do desenvolvedor" exex: "update file README"
+git commit -m "Mensagem do desenvolvedor" ex: "update file README"
 git push -u origin master
 `
 
