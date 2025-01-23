@@ -16,7 +16,6 @@ Clique  aqui para fazer downloand do git <a href="https://git-scm.com/downloads/
 
 ### Configuração do terminal 
 
-
 ```
 git  --version
 git config--global user.name "Samuel Silva"
@@ -28,14 +27,7 @@ ls  (Pra movimentação das pastas)
 cat .shh/id_ pub
 cd.. (Para sair do projento)
 ```
-
-
-
-
-
-
 ### Comandos Administrativos do Git
-
 
 ´´´
 git init 
@@ -79,10 +71,11 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 
 ### Capitulo # - subindo arquivos no git 
 ``` 
-git reset 
-git status git add . 
 git status 
-git commit -m commit " Update file Readme" git bra
+git add . 
+git status 
+git commit -m commit " Update file Readme" 
+git push -u origin master
 ```
  
 
