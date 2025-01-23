@@ -7,7 +7,7 @@
 <p>align= "center"> 
 Clique para aqui fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instalar o git </p> <br>
 Aperte em Download.
-<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="400" alt=""> 
+<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
 
 <br>
 <p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
@@ -16,15 +16,12 @@ Aperte em Download.
 
     
 ```
-
 git  --version
 git config--global user.name "Samuel Silva"
 git confing --global user.email aluno.senai.br
 shh-keygen (Criador de senhar)
 cd. (Pra entrar)  cd..(Para voltar)
 ls  (Pra movimentação das pastas)
-
-
 ```
 
 
@@ -49,9 +46,9 @@ git push -u origin maste
 ## capitulo 2 - Criando repositorio do git 
 ###
 `
-<p align= "left" Clique no  perfil no canto da tela.> 
+<p align= "left"> Clique no  perfil no canto da tela.</p>> 
 Clique no  perfil no canto da tela.
-<img src="docs/imagens/direrto no perfil.png" alt=""  widht="400"></p>
+<img src="docs/imagens/direrto no perfil.png" alt=""  widht="300"></p>
 
 
 <p align= "left">Clique no seu perfil</p>
