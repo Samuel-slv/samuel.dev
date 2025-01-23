@@ -35,16 +35,10 @@ git push -u origin master
 ###
 `
 <p align= "center"> 
+no github vá direto ao perfil
+<img src="docs/imagens/direrto no perfil.png" alt="">
 
-<img src="" alt="">
 
-<img src="docs/imagens/Primeira 2025-01-22 112927.png" alt=" $Escolher o sistema operacional e faça dowloand"
-                     width="400px" > <br> 
-<img src="docs/imagens/Primeira 2025-01-22 112927.png"alt="Aperte no perfil"
-width="400px >
-
-<img src=""alt=" clica em fazer novo repositorio"
-width="400px 
 
 </p>
 
