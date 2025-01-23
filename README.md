@@ -7,7 +7,7 @@
 <p align= "center"> 
 Clique  aqui para fazer downloand do git  Instalar o git 
 Aperte em Download. <a href="<a href=" target="_blank">Download</a>
-" target="_blank"></a>
+</a>
  </p> <br>
 <img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
 
