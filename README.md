@@ -29,8 +29,10 @@ Instalar Git <a href="https://git-scm.com/downloads/win" target="_blank"> Instla
 <ul>
 <li>git status</li>
 <li>git add index.thml or git add .</li>
-<li>git commit -m "Mensagem do desenvolvedor" ex: "update file README"</li></ul>
- <dl>  <dt>git push -u origin master</dt> </dl>
+<li>git commit -m "Mensagem do desenvolvedor" ex: "update file README"</li>
+<li>git push -u origin master<li>
+
+</ul>
 
 
 ## capitulo 2 - Criando repositorio do git 
@@ -70,6 +72,28 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 <li>git branch git push -u origin master </li>
 
 </ul>
+
+<br>
+<dl>
+    <dt>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque 
+        sint sequi repudiandae, optio quidem ex praesentium voluptate quam.
+         Illo expedita veniam quisquam quidem consequuntur perspiciatis voluptas atque. 
+         Animi, minus sequi.</dt>
+         <dt>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque 
+            sint sequi repudiandae, optio quidem ex praesentium voluptate quam.
+             Illo expedita veniam quisquam quidem consequuntur perspiciatis voluptas atque. 
+             Animi, minus sequi.</dt>
+             <dt>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque 
+                sint sequi repudiandae, optio quidem ex praesentium voluptate quam.
+                 Illo expedita veniam quisquam quidem consequuntur perspiciatis voluptas atque. 
+                 Animi, minus sequi.</dt> <dt>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque 
+                    sint sequi repudiandae, optio quidem ex praesentium voluptate quam.
+                     Illo expedita veniam quisquam quidem consequuntur perspiciatis voluptas atque. 
+                     Animi, minus sequi.</dt> <dt>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque 
+                        sint sequi repudiandae, optio quidem ex praesentium voluptate quam.
+                         Illo expedita veniam quisquam quidem consequuntur perspiciatis voluptas atque. 
+                         Animi, minus sequi.</dt>
+</dl>
 
 `git status`
 
