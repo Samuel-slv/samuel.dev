@@ -5,8 +5,10 @@
 
 
 <p align= "center"> 
-Clique  aqui para fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instalar o git 
-Aperte em Download. </p> <br>
+Clique  aqui para fazer downloand do git  Instalar o git 
+Aperte em Download. <a href="<a href=" target="_blank">Download</a>
+" target="_blank"></a>
+ </p> <br>
 <img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
 
 <br>
@@ -21,7 +23,7 @@ git  --version
 git config--global user.name "Samuel Silva"
 git confing --global user.email aluno.senai.br
 shh-keygen (Criador de senhar)
-cd. (Pra entrar)  cd..(Para voltar)
+cd. (Para entrar)  cd..(Para voltar)
 cd. \Nome da pasta\projeto (Use para navegar ate as paginas do codigos)
 ls  (Pra movimentação das pastas)
 cat .shh/id_ pub
