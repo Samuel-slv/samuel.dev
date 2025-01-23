@@ -6,6 +6,8 @@
 
 <p align= "center"> 
 Instalar Git <a href="https://git-scm.com/downloads/win" target="_blank"> Instlar o git 
+
+<br>
 <img src="docs/imagens/Captura de tela 2025-01-22 103436.png" alt=""
                      width="200px" > 
 </a> 
@@ -37,7 +39,7 @@ git push -u origin master
 <img src="" alt="">
 
 <img src="docs/imagens/Primeira 2025-01-22 112927.png" alt=" $Escolher o sistema operacional e faça dowloand"
-                     width="40px" > 
+                     width="400px" > <br> 
 <img src="docs/imagens/Primeira 2025-01-22 112927.png"alt="Aperte no perfil"
 width="400px >
 
