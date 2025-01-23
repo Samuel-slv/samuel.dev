@@ -35,6 +35,8 @@ cd.. (Para sair do projento)
 
 
 ### Comandos Administrativos do Git
+
+
 ´´´
 git init 
 git status
