@@ -14,7 +14,8 @@ Clique  aqui para fazer downloand do git <a href="https://git-scm.com/downloads/
  <img src="docs/imagens/Primeira 2025-01-22 112927.png" alt="" width="600" > 
 
 
-### Configuração do terminal    
+### Configuração do terminal 
+
 
 ```
 git  --version
