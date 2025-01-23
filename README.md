@@ -4,73 +4,81 @@
 ### instalação Git
 
 
-<p align= "center"> 
-Instalar Git <a href="https://git-scm.com/downloads/win" target="_blank"> Instlar o git 
+<p>align= "center"> 
+Clique para aqui fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instlar o git </p> <br>
+Aperte em Download.
+<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width" alt=""> 
 
 <br>
-<img src="docs/imagens/Captura de tela 2025-01-22 103436.png" alt=""
-                     width="400" > 
-<
-</p>
-    
+<p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
+ <img src="docs/imagens/Primeira 2025-01-22 112927.png" alt="" width="600" > 
 
-<dl>
-<dt>git  --version</dt>
-<dt>git config--global user.name "Samuel Silva"</dt>
-<dt>git confing --global user.email aluno.senai.br</dt>
-shh-keygen (Criador de senhar)</dt>
-<dt>cd. (Pra entrar)  cd..(Para voltar)</dt>
-<dt>ls  (Pra movimentação das pastas)</dt>
-</dl>
+
+    
+```
+
+git  --version
+git config--global user.name "Samuel Silva"
+git confing --global user.email aluno.senai.br
+shh-keygen (Criador de senhar)
+cd. (Pra entrar)  cd..(Para voltar)
+ls  (Pra movimentação das pastas)
+
+
+```
+
+
+
+
 
 
 ### Comandos Administrativos do Git
-`
-<dl>
-<dt>git status</dt>
-<dt>git add index.thml or git add .</dt>
-<dt>git commit -m "Mensagem do desenvolvedor" ex: "update file README"</dt>
-<dt>git push -u origin maste</dt>
-<dt>
-</dl>
+´´´
+git status
+git add index.thml or git add .
+git commit -m "Mensagem do desenvolvedor" ex: "update file README"
+git push -u origin maste
+´´´
+
+
+
+
 
 
 
 ## capitulo 2 - Criando repositorio do git 
 ###
 `
-<p align= "center"> 
+<p align= "left" Clique no  perfil no canto da tela.> 
 Clique no  perfil no canto da tela.
-<p><img src="docs/imagens/direrto no perfil.png" alt=""  widht="400"></p>
-<br>
+<img src="docs/imagens/direrto no perfil.png" alt=""  widht="400"></p>
 
-Clique no seu perfil
 
-<p> <img src="docs/imagens/Captura de tela 2025-01-23 083921.png" width="400" alt=""> </p>
+<p align= "left">Clique no seu perfil</p>
+
+<img src="docs/imagens/Captura de tela 2025-01-23 083921.png" width="400" alt=""> 
 <br> 
 
-Clique em repositorio e depois em novo para criar.
- <p><img src="docs/imagens/Captura de tela 2025-01-23 082817.png" width="400" alt=""> </p> <br>
+<p align= "left">Clique em repositorio e depois em novo para criar um .</p>
+ <img src="docs/imagens/Captura de tela 2025-01-23 082817.png" width="400" alt="">  <br>
 
-Aqui você vai escolher o nome do projento, depois você dar uma descrição ou não.
-Depois você escolher se o seu repositorio, seja publico ou privado e logo após clique em criar repositorio.
-
-<p> <img src="docs/imagens/Captura de tela 2025-01-23 090102.png" width="400" alt=""></p>
-
+<p>Aqui você vai escolher o nome do projento, depois você dar uma descrição ou não.
+Depois você escolher se o seu repositorio, seja publico ou privado e logo após clique em criar repositorio.</p>
+ <img src="docs/imagens/Captura de tela 2025-01-23 090102.png" width="400" alt="">
 
 
-</p>
 
-`
+
+
+
 ### Capitulo # - subindo arquivos no git 
-<dl>
-<dt>git reset </dt>
- <dt>git status </dt>
-<dt>git add . </dt>
- <dt>git status </dt>
-<dt>git commit -m commit " Update file Readme" </dt>
-<dt>git branch git push -u origin master </dt>
-</dl>
+``` 
+git reset 
+git status git add . 
+git status 
+git commit -m commit " Update file Readme" git bra
+```
+ 
 
 
 
