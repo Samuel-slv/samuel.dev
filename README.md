@@ -29,14 +29,16 @@ cd.. (Para sair do projento)
 ```
 ### Comandos Administrativos do Git
 
-´´´
+``` 
 git init 
 git status
 git add index.html or git add .
 git commit -m "Mensagem do desenvolvedor"  ex: 
 "update file README"
 git push -u origin master
-´´´
+```
+
+
 
 
 
