@@ -17,7 +17,7 @@ Instalar Git <a href="https://git-scm.com/downloads/win" target="_blank"> Instla
 <ul>
 <li>git  --version</li>
 <li>git config--global user.name "Samuel Silva"</li>
-<li>git confing --global user.email samue</li>lsilva2017ramos@gmail.com</li>
+<li>git confing --global user.email aluno.senai.br</li>
 <li>shh-keygen (Criador de senhar)</li>
 <li>cd. (Pra entrar)  cd..(Para voltar)</li>
 <li>ls  (Pra movimentação das pastas)</li>
@@ -38,15 +38,18 @@ Instalar Git <a href="https://git-scm.com/downloads/win" target="_blank"> Instla
 ###
 `
 <p align= "center"> 
-Clique no  perfil
+Clique no  perfil no canto da tela.
 <img src="docs/imagens/direrto no perfil.png" alt=""  widht="400">
 <br>
+```
 Clique no seu perfil
-<img src="docs/imagens/Captura de tela 2025-01-23 083921.png" width="400" alt="">
-<br>
+```
+<p> <img src="docs/imagens/Captura de tela 2025-01-23 083921.png" width="400" alt=""> </p>
+<br> <br>
+
 Clique em repositorio e depois em novo para criar.
- <img src="docs/imagens/Captura de tela 2025-01-23 082817.png" width="400" alt="">
-<br>
+ <p><img src="docs/imagens/Captura de tela 2025-01-23 082817.png" width="400" alt=""> </p>
+
 Aqui você vai escolher o nome do projento, depois você dar uma descrição ou não.
 Depois você escolher se o seu repositorio, seja publico ou privado e logo após clique em criar repositorio.
 
