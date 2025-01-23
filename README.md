@@ -35,8 +35,14 @@ git push -u origin master
 ###
 `
 <p align= "center"> 
-no github vá direto ao perfil
-<img src="docs/imagens/direrto no perfil.png" alt="">
+Clique no  perfil
+<img src="docs/imagens/direrto no perfil.png" alt=""  widht="400px">
+<br>
+Clique no seu perfil
+<img src="docs/imagens/Captura de tela 2025-01-23 083921.png" width="400" alt="">
+<br>
+ <img src="docs/imagens/Captura de tela 2025-01-23 082817.png" width="250px" alt="">
+
 
 
 
