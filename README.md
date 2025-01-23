@@ -4,7 +4,7 @@
 ### instalação Git
 
 
-<p>align= "center"> 
+<p align= "center"> 
 Clique para aqui fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instalar o git </p> <br>
 Aperte em Download.
 <img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
