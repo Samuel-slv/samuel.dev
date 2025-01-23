@@ -5,9 +5,9 @@
 
 
 <p>align= "center"> 
-Clique para aqui fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instlar o git </p> <br>
+Clique para aqui fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instalar o git </p> <br>
 Aperte em Download.
-<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width" alt=""> 
+<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="400" alt=""> 
 
 <br>
 <p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
