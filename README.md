@@ -5,8 +5,8 @@
 
 
 <p align= "center"> 
-Clique para aqui fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instalar o git </p> <br>
-Aperte em Download.
+Clique  aqui para fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> Instalar o git 
+Aperte em Download. </p> <br>
 <img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
 
 <br>
@@ -14,14 +14,18 @@ Aperte em Download.
  <img src="docs/imagens/Primeira 2025-01-22 112927.png" alt="" width="600" > 
 
 
-    
+### Configuração do terminal    
+
 ```
 git  --version
 git config--global user.name "Samuel Silva"
 git confing --global user.email aluno.senai.br
 shh-keygen (Criador de senhar)
 cd. (Pra entrar)  cd..(Para voltar)
+cd. \Nome da pasta\projeto (Use para navegar ate as paginas do codigos)
 ls  (Pra movimentação das pastas)
+cat .shh/id_ pub
+cd.. (Para sair do projento)
 ```
 
 
@@ -31,10 +35,12 @@ ls  (Pra movimentação das pastas)
 
 ### Comandos Administrativos do Git
 ´´´
+git init 
 git status
-git add index.thml or git add .
-git commit -m "Mensagem do desenvolvedor" ex: "update file README"
-git push -u origin maste
+git add index.html or git add .
+git commit -m "Mensagem do desenvolvedor"  ex: 
+"update file README"
+git push -u origin master
 ´´´
 
 
