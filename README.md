@@ -83,8 +83,86 @@ git push -u origin master
 
 
 
-mxxmmmx
-``
+
+### Trabalhando com o mesmo repositório do Github em computadores diferentes.
+
+``` 
+git version 
+ls
+cd \ documents\
+\Users\Aluno\Documents> mkdir workspace
+\Users\Aluno\Documents>  cd .\workspace\
+
+ git clone(código do GitHub) https://github.com/Samuel2214/samuel.dev.git
+
+ls pra ver se a pasta foi criada 
+
+cd ../.. para  voltar ate o inicio antes de documents
+```
+
+
+
+`COMANDO DE INDETIFICAÇÃO`
+
+``` 
+git confing --global user.name "Samuel da Silva"
+git confing --global user.email aluno.senai.@gmail.com
+
+```
+
+
+
+
+`Criar o par de chaves `
+```
+C:\Users\Aluno> ssh-keygen
+
+Enter passphrase (empty for no passphrase): (coloque uma senha.
+
+ observação a senha ficara invisivel) Enter
+
+Enter: same passphrase again:(repita senha) Enter
+
+```
+
+```
+cat id_ed25519.pub 
+( Chave pub gerada: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMfgUvbfdRtma4xJNaYVug4nyw/qG7z/QCxR1my4EiPe aluno@LAB02-20)
+ 
+cd .\documents\Workspace\samuel.dev
+cd .\.git\ 
+ls
+\Documents\Workspace\samuel.dev\.git> cat .\config (para puxar a pasta)
+cd ..
+code .
+
+```
+\Users\Aluno> cd .\.ssh\
+\Users\Aluno\.ssh> ls
+
+ 
+```
+Clique na tecla Windows para e pesquisar gerenciador de credenciais
+ir em o Windows e apagar o git)
+
+No VScode: instaler o GitHub copillot e GitHub Pull Requests
+
+```
+
+
+```
+TROCANDO MENSAGEM DE ENVIO MASTER-DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
+
+git branch 
+git branch develop
+git branch
+git checkout develop
+git branch
+
+
+```
+
+
 
 
 
