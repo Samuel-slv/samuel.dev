@@ -1,12 +1,18 @@
 # MANUAL DE UITLIZAÇÃO DO SISTEMA/SITE
 ## CAPITULO 1 - Configuração do git no computador 
 ### instalação Git
+<style>
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color 
+}
 
+ </style>
 <p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
  <img src="docs/imagens/Primeira 2025-01-22 112927.png" alt="" width="600" > 
  <br>
 <p align= "left"> 
-Clique  aqui para fazer downloand do git, como a imagem explica<a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
+Clique  aqui para fazer downloand do git, como a imagem Mostra<a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
   </p> 
 <img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
 
@@ -16,10 +22,10 @@ Clique  aqui para fazer downloand do git, como a imagem explica<a href="https://
 ```
 git  --version (Esse comando retornará a versão do Git que está instalada. Por exemplo, a saída pode ser algo como:git version 2.34.1 )
 
-git config--global user.name "Samuel Silva"
+git config--global user.name "Usuario"
 
 
-git confing --global user.email aluno.senai.br
+git confing --global user.email  aluno.senai.br
 
 shh-keygen (Criador de senhar)
 
@@ -49,7 +55,6 @@ git push -u origin master
 
 `
 <p align= "left"> Clique no  perfil no canto da tela.</p>> 
-Clique no  perfil no canto da tela.
 <img src="docs/imagens/direrto no perfil.png" alt=""  widht="300"></p>
 
 
@@ -58,11 +63,11 @@ Clique no  perfil no canto da tela.
 <img src="docs/imagens/Captura de tela 2025-01-23 083921.png" width="400" alt=""> 
 <br> 
 
-<p align= "left">Clique em repositorio e depois em novo para criar um .</p>
+<p align= "left">Clique em repositorio e depois em novo/new para criar.</p>
  <img src="docs/imagens/Captura de tela 2025-01-23 082817.png" width="400" alt="">  <br>
 
 <p>Aqui você vai escolher o nome do projento, depois você dar uma descrição ou não.
-Depois você escolher se o seu repositorio, seja publico ou privado e logo após clique em criar repositorio.</p>
+Depois você escolher se o seu repositorio seja publico ou privado, e depois clique em criar repositorio.</p>
  <img src="docs/imagens/Captura de tela 2025-01-23 090102.png" width="400" alt="">
 
 
@@ -81,7 +86,9 @@ git push -u origin master
 
 
 
-### Trabalhando com o mesmo repositório do Github em computadores diferentes.
+### TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
+
+
 
 ``` 
 git version 
