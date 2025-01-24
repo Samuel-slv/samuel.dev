@@ -1,53 +1,52 @@
-# manual de utlização do sistema/site
-## capitulo 1 - Configuração do git no computador 
-### como preencher formulário
+# MANUAL DE UITLIZAÇÃO DO SISTEMA/SITE
+## CAPITULO 1 - Configuração do git no computador 
 ### instalação Git
 
-
-<p align= "center"> 
-Clique  aqui para fazer downloand do git <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
-  </p> <br>
-<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
-
-<br>
 <p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
  <img src="docs/imagens/Primeira 2025-01-22 112927.png" alt="" width="600" > 
+ <br>
+<p align= "left"> 
+Clique  aqui para fazer downloand do git, como a imagem explica<a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
+  </p> 
+<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
 
 
-### Configuração do terminal 
+### Configuração no terminal  do computador 
 
 ```
-git  --version
+git  --version (Esse comando retornará a versão do Git que está instalada. Por exemplo, a saída pode ser algo como:git version 2.34.1 )
+
 git config--global user.name "Samuel Silva"
+
+
 git confing --global user.email aluno.senai.br
+
 shh-keygen (Criador de senhar)
+
 cd. (Para entrar)  cd..(Para voltar)
-cd. \Nome da pasta\projeto (Use para navegar ate as paginas do codigos)
-ls  (Pra movimentação das pastas)
+
+cd. \Nome da pasta\projeto (Use o comando "cd" para navegar ate as 
+paginas do codigos)
+
+ls  (Ver pastas já exixtentes)
+
 cat .shh/id_ pub
+
 cd.. (Para sair do projento)
+
 ```
-### Comandos Administrativos do Git
+### Comandos Administrativos do Git no Windows
 
 ``` 
 git init 
 git status
 git add index.html or git add .
-git commit -m "Mensagem do desenvolvedor"  ex: 
-"update file README"
+git commit -m "Mensagem do desenvolvedor"  ex: "update file README"
 git push -u origin master
 ```
 
-
-
-
-
-
-
-
-
 ## capitulo 2 - Criando repositorio do git 
-###
+
 `
 <p align= "left"> Clique no  perfil no canto da tela.</p>> 
 Clique no  perfil no canto da tela.
@@ -69,14 +68,12 @@ Depois você escolher se o seu repositorio, seja publico ou privado e logo após
 
 
 
-
-
-### Capitulo # - subindo arquivos no git 
+### Capitulo 3 # - Subindo arquivos no GIthub
 ``` 
 git status 
 git add . 
 git status 
-git commit -m commit " Update file Readme" 
+git commit -m commit "Update file Readme" 
 git push -u origin master
 ```
  
@@ -93,9 +90,9 @@ cd \ documents\
 \Users\Aluno\Documents> mkdir workspace
 \Users\Aluno\Documents>  cd .\workspace\
 
- git clone(código do GitHub) https://github.com/Samuel2214/samuel.dev.git
+ git clone(código do GitHub) https://github.com/Usuario22/Usuario.dev.git 
 
-ls pra ver se a pasta foi criada 
+ls para ver se a pasta foi criada 
 
 cd ../.. para  voltar ate o inicio antes de documents
 ```
@@ -105,34 +102,30 @@ cd ../.. para  voltar ate o inicio antes de documents
 `COMANDO DE INDETIFICAÇÃO`
 
 ``` 
-git confing --global user.name "Samuel da Silva"
+git confing --global user.name "Nome do Usuario"
 git confing --global user.email aluno.senai.@gmail.com
 
 ```
-
-
 
 
 `Criar o par de chaves `
 ```
 C:\Users\Aluno> ssh-keygen
 
-Enter passphrase (empty for no passphrase): (coloque uma senha.
+passphrase (empty for no passphrase): (coloque uma senha "observação a senha ficara invisivel") Enter
 
- observação a senha ficara invisivel) Enter
-
-Enter: same passphrase again:(repita senha) Enter
+Confirmar senha novamente: same passphrase again:(repita senha) Enter
 
 ```
 
 ```
-cat id_ed25519.pub 
-( Chave pub gerada: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMfgUvbfdRtma4xJNaYVug4nyw/qG7z/QCxR1my4EiPe aluno@LAB02-20)
+cat id_ed25519.pub  `Enter`
+( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE5AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#my4EiPe aluno@LAB02-20)
  
-cd .\documents\Workspace\samuel.dev
+cd .\documents\Workspace\Usuario.dev
 cd .\.git\ 
 ls
-\Documents\Workspace\samuel.dev\.git> cat .\config (para puxar a pasta)
+\Documents\Workspace\Usuario.dev\.git> cat .\config (para puxar a pasta)
 cd ..
 code .
 
@@ -142,8 +135,8 @@ code .
 
  
 ```
-Clique na tecla Windows para e pesquisar gerenciador de credenciais
-ir em o Windows e apagar o git)
+Clique na tecla Windows, e pesquisar gerenciador de credenciais.
+Ir em o Windows e apagar o git)
 
 No VScode: instaler o GitHub copillot e GitHub Pull Requests
 
