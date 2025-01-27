@@ -83,10 +83,22 @@ git push -u origin master
 ```
  
 
+### Capitulo 4 - TROCANDO MENSAGEM DE ENVIO  ORIGIN MASTER PARA ORIGIN DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
 
 
+```
+TROCANDO MENSAGEM DE ENVIO MASTER-DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
 
-### TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
+git branch 
+git branch develop
+git branch
+git checkout develop
+git branch
+git pull origin develop
+
+```
+
+### Capitulo 5 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 
 
 
@@ -151,17 +163,7 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 ```
 
 
-```
-TROCANDO MENSAGEM DE ENVIO MASTER-DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
 
-git branch 
-git branch develop
-git branch
-git checkout develop
-git branch
-git pull origin develop
-
-```
 
 
 
