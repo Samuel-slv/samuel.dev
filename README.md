@@ -86,7 +86,85 @@ git push -u origin master
 
 
 
-``
+### TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
+
+
+
+``` 
+git version 
+ls
+cd \ documents\
+\Users\Aluno\Documents> mkdir workspace
+\Users\Aluno\Documents>  cd .\workspace\
+
+ git clone(código do GitHub) https://github.com/Usuario22/Usuario.dev.git 
+
+ls para ver se a pasta foi criada 
+
+cd ../.. para  voltar ate o inicio antes de documents
+```
+
+
+
+`COMANDO DE INDETIFICAÇÃO`
+
+``` 
+git confing --global user.name "Nome do Usuario"
+git confing --global user.email aluno.senai.@gmail.com
+
+```
+
+
+`Criar o par de chaves `
+```
+C:\Users\Aluno> ssh-keygen
+
+passphrase (empty for no passphrase): (coloque uma senha "observação a senha ficara invisivel") Enter
+
+Confirmar senha novamente: same passphrase again:(repita senha) Enter
+
+```
+
+```
+\Users\Aluno> cd .\.ssh\
+ls (para pegar a chave)
+cat id_ed25519.pub  `Enter`
+( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE5AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#my4EiPe aluno@LAB02-20)
+ 
+cd .\documents\Workspace\Usuario.dev
+cd .\.git\ 
+ls
+\Documents\Workspace\Usuario.dev\.git> cat .\config (para puxar a pasta)
+cd ..
+code .
+
+```
+\Users\Aluno> cd .\.ssh\
+\Users\Aluno\.ssh> ls
+
+ 
+```
+Clique na tecla Windows, e pesquisar gerenciador de credenciais.
+Ir em o Windows e apagar o git)
+
+No VScode: instaler o GitHub copillot e GitHub Pull Requests
+
+```
+
+
+```
+TROCANDO MENSAGEM DE ENVIO MASTER-DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
+
+git branch 
+git branch develop
+git branch
+git checkout develop
+git branch
+git pull origin develop
+
+```
+
+
 
 
 
