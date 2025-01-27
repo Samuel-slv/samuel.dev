@@ -127,7 +127,7 @@ Confirmar senha novamente: same passphrase again:(repita senha) Enter
 
 ```
 \Users\Aluno> cd .\.ssh\
-ls (para pegar a chave)
+shh> ls (para pegar a chave)
 cat id_ed25519.pub  `Enter`
 ( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE5AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#my4EiPe aluno@LAB02-20)
  
@@ -139,8 +139,7 @@ cd ..
 code .
 
 ```
-\Users\Aluno> cd .\.ssh\
-\Users\Aluno\.ssh> ls
+
 
  
 ```
