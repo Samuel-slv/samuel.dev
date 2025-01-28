@@ -87,8 +87,7 @@ git push -u origin master
 
 
 
-
-### TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
+### Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 
 
 
@@ -119,17 +118,18 @@ git confing --global user.email aluno.senai.@gmail.com
 
 `Criar o par de chaves `
 ```
-C:\Users\Aluno> ssh-keygen
+ssh-keygen
 
-passphrase (empty for no passphrase): (coloque uma senha "observação a senha ficara invisivel") Enter
-
-Confirmar senha novamente: same passphrase again:(repita senha) Enter
+ssh keygen (Enter e digitar a senha duas vezes)
 
 ```
 
 ```
+cd .\.ssh\
+shh> 
+ls (para pegar a chave)
 cat id_ed25519.pub  `Enter`
-( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE5AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#my4EiPe aluno@LAB02-20)
+( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE84845AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#hgff6y77my4EiPe aluno@LAB02-20)
  
 cd .\documents\Workspace\Usuario.dev
 cd .\.git\ 
@@ -139,8 +139,7 @@ cd ..
 code .
 
 ```
-\Users\Aluno> cd .\.ssh\
-\Users\Aluno\.ssh> ls
+
 
  
 ```
@@ -152,15 +151,17 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 ```
 
 
+### Capitulo 5 - TROCANDO MENSAGEM DE ENVIO  ORIGIN MASTER PARA ORIGIN DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
+
+
 ```
-TROCANDO MENSAGEM DE ENVIO MASTER-DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
 
 git branch 
 git branch develop
 git branch
 git checkout develop
 git branch
-
+git pull origin develop
 
 ```
 
