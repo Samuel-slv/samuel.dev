@@ -1,93 +1,116 @@
 <!DOCTYPE html>  <!--Doctype html= "Declara o tipo de documento e a versão do HTML."-->
-<html lang="pt-br"> <!--html= "Elemento raiz de um documento HTML."-->
+<html lang="pt-br"> <!--html lang = "Especifica o idioma principal do conteúdo da página, ajudando navegadores e mecanismos
+     de busca a entenderem e processarem o texto corretamente."-->
+
 <head> <!--head= "Contém metadados sobre o documento, como título e links para estilos."-->
+
     <meta charset="UTF-8"> 
     <!--meta charset= !define a condificação de caracteres de documentos como UTF-8 que é binaria-->
-    <!---->
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <!--
-    name="viewport":Significado: Indica que a tag está configurando as propriedades da área visível da página (viewport).
-    
-    "width=device-width": Significado: Define a largura da viewport para ser igual à largura da tela do dispositivo, 
-permitindo que a página se ajuste corretamente em diferentes tamanhos de tela.
+      
+<!--name="viewport" = "Especifica o tipo de configuração que está sendo aplicada à viewport."-->
 
-    initial-scale=1.0:Significado: Define o nível de zoom inicial quando a página é carregada, com 1.0 significando que a página será exibida em sua escala original,
- sem zoom aplicado.
-       -->
+<!--content = "Determina as configurações da viewport."-->
+
+<!--width=device-width = "Define a largura da viewport para corresponder à largura da tela do dispositivo, garantindo que o conteúdo da página se ajuste corretamente em diferentes tamanhos de tela."-->
+
+<!--initial-scale=1.0 = "Define o nível de zoom inicial da página ao ser carregada, com 1.0 indicando que a página será exibida em sua escala original, sem qualquer ampliação ou redução."-->
+
         
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> 
     <!--link href="Vicula a recursos externos"-->
     <!--rel"stylesheet"="Especifica a relação entre o html e oque foi viculado. Neste caso, indica uma folha no estilo"-->
+    
     <link rel="stylesheet" href="css/styele.css"> <!--link rel=style style.css ="Especifica o caminho para o arquivo"-->
     
 <!--especifica todas-->
+<!--Fechamento da tag -->
 
     
     
-</head> <!--Fechamento da tag-->
-<body> <!--body =" Contém o conteúdo visível da página."-->
+</head> <!--Fechamento da tag head-->
+<body>  <!-- Início do corpo do documento, onde o conteúdo visível da página é colocado. -->
 
 
     <header> 
-         <!--header ="é usada para definir um cabeçalho para um documento"-->
+         <!-- Seção de cabeçalho da página, geralmente contém títulos, logotipos e navegação. -->
          
         <h1>Catálogo de filmes</h1> 
-         <!-- <h1>  =é usada para definir o cabeçalho mais importante em um documento HTML. </h1> tag de fechamento. "-->
+        <!-- Título principal da página, geralmente o mais importante em termos de hierarquia. -->
+         
         <p>Explore filmes, para assitir em familia ou amigos!</p> 
         <!--p = "é usada para definir um parágrafo de texto. </p> tag de fechamneto"-->
     </header> 
-    <!--/header = é a tag de fechamento da tag -->
+    
+    <div class="container">
+         <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
+        <section class="intro"> 
+            <!--section= "Seção com uma classe específica, usada para agrupar conteúdo tematicamente relacionado."  -->
 
-    <div class="container"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
-        <section class="intro"> <!--section class ="Define uma seção temática em um documento HTML. O atributo class permite 
-            aplicar estilos CSS ou manipular a seção com JavaScript." -->
-            <h2>Sobre o Catálogo</h2> <!--<h2></h2>="cabeçalho de segundo nível e tag de fechamento.  "-->
+            <h2>Sobre o Catálogo</h2>
+             <!-- h2="Subtítulo de nível 2, usado para seções ainda mais específicas."  --> 
+
             <p>Descubra uma seleção de melhores filmes, Nosso objetivo é proporcionar uma experiência única para quem ama entretenimento.
-                <!--p = "é usada para definir um parágrafo de texto. </p> tag de fechamneto"--> 
-            </p> <!--fechamento-->
-        </section> <!--/section fechamneto da tag -->
+                <!--p = "é usada para definir um parágrafo de texto.--> 
 
-        <section class="category">  <!--section class ="Define uma seção temática em um documento HTML. O atributo class permite 
-            aplicar estilos CSS ou manipular a seção com JavaScript." -->
+
+            </p> 
+            
+        </section> 
+       
+
+        <section class="category"> 
+            <!--section= "Seção com uma classe específica, usada para agrupar conteúdo tematicamente relacionado."  -->
+
             <h2>Filmes <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
                 class="bi bi-cloud-hail-fill" viewBox="0 0 16 16">
-                <!--h2 ="Cabeçalho de segundo nível, usado para títulos de seções"-->
-                <path d="M3.75 15.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316M7.75 15.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m3.592 3.724a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m1.247-6.999a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10.5H13a3 3 0 0 0 .405-5.973"/>
-              </svg> </h2> <!--fechamento da tag-->
-            <div class="grid"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
+                <path d="M3.75 15.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316M7.75 15.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m3.592 3.724a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m1.247-6.999a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10.5H13a3 3 0 0 0 .405-5.973" > </path>
+                    <!-- h2="Subtítulo de nível 2, usado para seções ainda mais específicas."  --> 
+                    <!--svg="Gráfico Vetorial Escalável, usado para gráficos e imagens vetoriais." -->
+                    <!--path="Define um caminho dentro de um SVG, usado para desenhar formas." -->
 
-                <div class="card"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
+              </svg> </h2> 
+              <!--fechamento da tag svg-->
+              <!--fechamneto da tag h2-->
 
+            <div class="grid">  
+                <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
+                <div class="card">  
+                <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
                     
                     <img src="https://ingresso-a.akamaihd.net/prd/img/movie/duna-parte-2/3971d5d6-702d-40d8-b
                     990-872d4ffe3e32.webp" alt="Filme 1 " width="200px">
-                    <h3>duna-parte-2 <i class="bi bi-earbuds"></i></h3> 
-                    <!--img=" Insere uma imagem na página."-->
-                    <!--h3=""-->
-                    <!--i=" é utilizada para enfatizar texto, geralmente exibindo-o em itálico. "-->
-                    <p>Sequência de Duna (2021), Duna: Parte 2 segue a jornada de Paul Atreides (Timothée Chalamet) enquanto ele busca vingar a morte de seu pai e reivindicar o controle do planeta Arrakis, 
+                    <h3>duna-parte-2 <i class="bi bi-earbuds"></i></h3>
+                     <!-- img="Imagem, onde 'src' é a URL da imagem e 'alt' fornece uma descrição alternativa." -->
+                    <!-- h3="Subtítulo de nível 3, usado para seções ainda mais específicas."  --> 
+                     <!-- i="Usado para texto em itálico ou para ícones, dependendo do contexto."  -->
+                    <p> <!--p = "é usada para definir um parágrafo de texto-->
+                        Sequência de Duna (2021), Duna: Parte 2 segue a jornada de Paul Atreides (Timothée Chalamet) enquanto ele busca vingar a morte de seu pai e reivindicar o controle do planeta Arrakis, 
                         o único local do universo onde é produzido o valioso "spice". À medida que Paul se alia aos Fremen e se prepara para enfrentar o Imperador e a Casa Harkonnen,
                          ele deve lidar com a crescente tensão <br>de seu destino como o "Kwisatz Haderach" – um ser messiânico com poderes extraordinários. 
-                          <!--p = "é usada para definir um parágrafo de texto-->   <br><!--br="serve para quebra linhas"-->
+        <br><!--br="serve para quebra linhas"-->
                             
                           <a href="https://youtu.be/QqmbrvluQRA?si=Iy6Qoy6_Ra4RcEkL" 
-                          target="_blank"  ><button> Trailer</button></a> 
-                          <!--a ="A tag <a> é usada para criar hyperlinks, permitindo que os usuários naveguem de uma página para outra ou para um recurso externo. </a> tag de fechamento"-->
-                            <!--href ="Atributo href: O atributo href especifica o URL (Uniform Resource Locator) do recurso que o link deve abrir."-->
-                            <!--target_blake="bre o link em uma nova aba." -->
-                            <!--button="Cria um botão clicável." </button>  tag de fechamento-->
-                    <!--</a> tag de fechamento-->
+                          target="_blank"  ><button> Trailer</button><a> 
+                           <!-- Link que, ao ser clicado, abre uma nova aba ou janela do navegador. -->
+                             <!-- Botão que pode ser clicado para executar uma ação, como enviar um formulário. -->
+                        
+                        
+                        
+                        </a> 
               
-                        </p> <!--fechamneto da tag-->
+                        </p> 
                          
-                </div> <!--tag de fechamento-->
-                <div class="card"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
+                </div> 
+                <div class="card"> 
+                    <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
                     <img src="https://i0.wp.com/ovicio.com.br/wp-content/uploads/2024/06/20240617-deadpool-wolverine-em-explosao.webp?resize=555%2C555&ssl=1" alt="deadpool&wolverine"
-                     width="200px" >  <!--IMG=" Insere uma imagem na página."-->
-                     <!--target_blake="bre o link em uma nova aba." -->
-                            <!--button="Cria um botão clicável." </button>  tag de fechamento-->
-                    <!--</a> tag de fechamento-->
-                    <h3>deadpool&wolverine <i class="bi bi-earbuds"></i></h3>
+                     width="200px" > <!-- img="Imagem, onde 'src' é a URL da imagem e 'alt' fornece uma descrição alternativa." -->
+                    <h3>deadpool&wolverine <i class="bi bi-earbuds"></i></h3>          
+                    <!-- h3="Subtítulo de nível 3, usado para seções ainda mais específicas."  --> 
+                     <!-- i="Usado para texto em itálico ou para ícones, dependendo do contexto."  -->
+                      
                     <p> <!--p = "é usada para definir um parágrafo de texto-->
                         A sinopse oficial de Deadpool & Wolverine
                         e Hugh Jackman reprisando o papel de Wolverine, que ele havia deixado após Logan (2017). O filme promete muita ação, humor irreverente e, claro, 
@@ -95,21 +118,21 @@ permitindo que a página se ajuste corretamente em diferentes tamanhos de tela.
                         que, após os eventos de Deadpool 2,
                          o anti-herói se envolva em uma nova aventura ao lado de Wolverine, misturando comédia e 
                          cenas de ação épicas, enquanto eles enfrentam novos inimigos.  <!--p = "é usada para definir um parágrafo de texto-->
-                        </p> <!--fechamneto da tag-->
-                         <br><!--br="serve para quebra linhas"-->
+                        </p> 
+                         <br>
+                         <!--br="serve para quebra linhas"-->
                          <a href=https://youtu.be/dEbe0rS4Z2A?si=Ll6quYU-xJTNYz0z" target="_blank">
                             <button>Trailer</button></a> 
-                            <!--a ="A tag <a> é usada para criar hyperlinks, permitindo que os usuários naveguem de uma página para outra ou para um recurso externo. </a> tag de fechamento"-->
-                            <!--href ="Atributo href: O atributo href especifica o URL (Uniform Resource Locator) do recurso que o link deve abrir."-->
-                            <!--target_blake="bre o link em uma nova aba." -->
-                            <!--button="Cria um botão clicável." </button>  tag de fechamento-->
+                            <!-- a="Link que, ao ser clicado, abre uma nova aba ou janela do navegador." -->
+                             <!-- button="Botão que pode ser clicado para executar uma ação, como enviar um formulário."  -->
+                          
                 
-                        </div> <!--fechamento da tag div -->
-            </div> <!--fechamento da tag div -->
-        </section> <!--fechamento da tag section-->
-
-        <section class="category"> <!--section class ="Define uma seção temática em um documento HTML. O atributo class permite 
-            aplicar estilos CSS ou manipular a seção com JavaScript." -->
+                        </div> 
+            </div>
+        </section> 
+        
+        <section class="category"> 
+            <!-- section="Seção com uma classe específica, usada para agrupar conteúdo tematicamente relacionado." -->
             <h2>Filmes 2  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                  class="bi bi-cloud-hail-fill" viewBox="0 0 16 16">
                 <path d="M3.75 15.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-
@@ -117,142 +140,203 @@ permitindo que a página se ajuste corretamente em diferentes tamanhos de tela.
                 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-
                 .316m3.592 3.724a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948
                 -.316l.5-1.5a.5.5 0 0 1 .632-.316m1.247-6.999a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10.5H13a3 3 0 0 0
-                 .405-5.973"/> <!--img=" Insere uma imagem na página."-->
-              </svg></h2> <!--h2="Cabeçalho de segundo nível, usado para títulos de seções."-->
-            <div class="grid"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
-                <div class="card"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
-                    <img src="https://muralzinhodeideias.com.br/wp-content/uploads/2024/10/operacao-natal.jpeg"width="200px"  alt="Música 1"> <!--img=" Insere uma imagem na página."-->
+                 .405-5.973"/>
+                    <!-- h2="Subtítulo de nível 2, usado para seções ainda mais específicas."  --> 
+                    <!--svg="Gráfico Vetorial Escalável, usado para gráficos e imagens vetoriais." -->
+                    <!--path="Define um caminho dentro de um SVG, usado para desenhar formas." -->
+
+              </svg></h2> 
+            <div class="grid"> 
+                <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
+                <div class="card">
+                    <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
+
+                    <img src="https://muralzinhodeideias.com.br/wp-content/uploads/2024/10/operacao-natal.jpeg"width="200px"  alt="Música 1"> 
+                    <!-- img="Imagem, onde 'src' é a URL da imagem e 'alt' fornece uma descrição alternativa." -->
+
                     <br><!--br="serve para quebra linhas"-->
 
                     <h3>Opeção Natal <i class="bi bi-earbuds"></i></h3>
-                    
+                    <!-- h3="Subtítulo de nível 3, usado para seções ainda mais específicas."  --> 
+                     <!-- i="Usado para texto em itálico ou para ícones, dependendo do contexto."  -->
+
                     <p> <!--p = "é usada para definir um parágrafo de texto-->
                         Operação Natal é uma comédia de ação dirigida por Vitor Hugo. A história gira em torno de um agente secreto que, devido a um acidente em uma missão de espionagem, 
-                        se vê forçado a passar as festas de fim de ano com a família que ele <br>nunca soubera que tinha. No entanto, sua vida volta a ser vira de cabeça para baixo quando ele 
-                        precisa salvar o Natal de uma ameaça internacional. <br> <a href="https://youtu.be/4EEDJFCKryE?si=rdhO6iziK4yisnkB
-                        " target="_blank"><button>Trailer</button></a></p>
+                        se vê forçado a passar as festas de fim de ano com a família que ele 
+                        nunca soubera que tinha. No entanto, sua vida volta a ser vira de cabeça para baixo quando ele 
+                        precisa salvar o Natal de uma ameaça internacional
+                        .<a href="https://youtu.be/4EEDJFCKryE?si=rdhO6iziK4yisnkB
+                        " target="_blank"><button>Trailer</button></a></p> 
+                        <!-- a="Link que, ao ser clicado, abre uma nova aba ou janela do navegador." -->
+                             <!-- button="Botão que pode ser clicado para executar uma ação, como enviar um formulário."  -->
+                        
+                </div> 
+                <div class="card"> 
+                     <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
 
-                </div> <!--FECHAMENTON DA TAG DIV -->
-                <div class="card"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
                     <img src="https://tocaoterror.com.br/wp-content/uploads/2024/04/Abigail-poster-001323537_n.jpg" width="200px" alt="Música 2">
-                     <!--img=" Insere uma imagem na página."-->
-                    <!--target_blake="bre o link em uma nova aba." -->
-                            <!--button="Cria um botão clicável." </button>  tag de fechamento-->
-                    <!--</a> tag de fechamento-->
+                     <!-- img="Imagem, onde 'src' é a URL da imagem e 'alt' fornece uma descrição alternativa." -->
+
                     <h3>Abigail (2024) <i class="bi bi-earbuds"></i></h3>
-                    <p>  <!--p = "é usada para definir um parágrafo de texto--> 
+                    <!-- h3="Subtítulo de nível 3, usado para seções ainda mais específicas."  --> 
+                     <!-- i="Usado para texto em itálico ou para ícones, dependendo do contexto."  -->
+
+                    <p>  <!--p = "é usada para definir um parágrfo de texto--> 
                         Abigail é um filme de fantasia e aventura, ambientado em um mundo onde uma misteriosa quarentena impede as pessoas de viajar para fora de suas cidades. 
                         A protagonista, Abigail, uma jovem determinada, descobre que possui poderes especiais e começa a investigar os segredos que cercam a cidade onde vive. 
-                        <br><!--br="serve para quebra linhas"--> 
+        <br><!--br="serve para quebra linhas"--> 
                         <a href="https://www.youtube.com/embed/4EEDJFCKryE?si=jNBUpIfj5PmnLneX"
-                         target="_blank">
-                            <button>  Trailer</button></a></p>
-                            <!--a ="A tag <a> é usada para criar hyperlinks, permitindo que os usuários naveguem de uma página para outra ou para um recurso externo. </a> tag de fechamento"-->
-                            <!--href ="Atributo href: O atributo href especifica o URL (Uniform Resource Locator) do recurso que o link deve abrir."-->
-                            <!--target_blake="bre o link em uma nova aba." -->
-                            <!--button="Cria um botão clicável." </button>  tag de fechamento-->
-
-                </div> <!--FECHAMENTON DA TAG DIV-->
-            </div> <!--FECHAMENTON DA TAG DIV  -->
-        </section> <!--fechamento-->
+                         target="_blank"><button>  Trailer</button></a>
+                         <!-- a="Link que, ao ser clicado, abre uma nova aba ou janela do navegador." -->
+                        <!-- button="Botão que pode ser clicado para executar uma ação, como enviar um formulário."  -->
+                        </p> 
+                          <!--fechamento da tag </p>-->
+                </div> 
+            </div> 
+        </section> 
 
         <section class="category">
-            <h2><!--h2="Cabeçalho de segundo nível, usado para títulos de seções."-->
+            <h2>
                 Filmes 3 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-hail-fill" viewBox="0 0 16 16">
                 <path d="M3.75 15.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316M7.75 15.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m3.592 3.724a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m.408-3.724a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m1.247-6.999a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10.5H13a3 3 0 0 0 .405-5.973"/>
-              </svg></h2> <!--fechamento de tag-->
+                    <!-- h2="Subtítulo de nível 2, usado para seções ainda mais específicas."  --> 
+                    <!--svg="Gráfico Vetorial Escalável, usado para gráficos e imagens vetoriais." -->
+                    <!--path="Define um caminho dentro de um SVG, usado para desenhar formas." -->
+              </svg> 
+            </h2> 
 
-            <div class="grid"> <!--div class="Contêiner genérico com uma classe específica para estilização."-->
-                <div class="card"> <!--div class="Contêiner genérico com uma classe específica para estilização."-->
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/4/47/A_Quiet_Place_-_Day_One_2024.jpg/250px-A_Quiet_Place_-_Day_One_2024.jpg" width="200px" alt="Podcast">
+            <div class="grid">
+                 <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
+
+                <div class="card"> 
+                    <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
+
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/4/47/A_Quiet_Place_-_Day_One_2024.jpg/250px-A_Quiet_Place_-_Day_One_2024.jpg" width="200px" alt="Podcast"> <!-- img="Imagem, onde 'src' é a URL da imagem e 'alt' fornece uma descrição alternativa." -->
+                    
+
                     <h3>Um Lugar Silencioso dia um <i class="bi bi-earbuds"></i></h3> 
-                   
-                    <!--img=" Insere uma imagem na página."-->
-                    <!--target_blake="bre o link em uma nova aba." -->
-                     <!--button="Cria um botão clicável." </button>  tag de fechamento-->
-                    <!--</a> tag de fechamento-->
+                    <!-- h3="Subtítulo de nível 3, usado para seções ainda mais específicas."  --> 
+                    <!-- i="Usado para texto em itálico ou para ícones, dependendo do contexto."  -->
+            
                     <p> <!--p = "é usada para definir um parágrafo de texto-->
                         Um Lugar Silencioso: Dia Um (A Quiet Place: Day One) é o prelúdio da famosa franquia Um Lugar Silencioso, e se passa antes dos eventos do primeiro filme. Dirigido por Michael Sarnoski, o filme explora como o mundo foi devastado pela chegada das criaturas
                         alienígenas que caçam humanos com base em sons. A história segue a luta de um grupo de pessoas para sobreviver nos primeiros dias do ataque, enquanto a humanidade enfrenta um inimigo
                          desconhecido e implacável. O filme mostra como a sociedade colapsa rapidamente, com cidades sendo invadidas, famílias sendo separadas
-                          e a tensão crescente de um mundo onde o menor som pode significar a morte.</p> <!--fechamneto da tag-->
-                    <br><!--br="serve para quebra linhas"--> <a href="https://youtu.be/ENocUCWoGHA?si=a3D5FbBzXcUGdZ0Y" 
+                          e a tensão crescente de um mundo onde o menor som pode significar a morte.</p> 
+                    <br><!--br="serve para quebra linhas"--> 
+                    
+                    <a href="https://youtu.be/ENocUCWoGHA?si=a3D5FbBzXcUGdZ0Y" 
                     target="_blank" ><button>Trailer</button></a>
-                    </p> <!--fechyamento de tag-->
-                </div> <!--fechamento da tag div -->
-                <div class="card"> <!--div class = "Contêiner genérico com uma classe específica para estilização."-->
-                    <img src="https://br.web.img2.acsta.net/pictures/210/166/21016629_2013062820083878.jpg" width="200px" alt="Documentário">
-                    <h3>Invocação do mal <i class="bi bi-earbuds"></i></h3>
-                     <!--img=" Insere uma imagem na página."--> 
-                     <!--target_blake="bre o link em uma nova aba." -->
-                            <!--button="Cria um botão clicável." </button>  tag de fechamento-->
-                    <!--</a> tag de fechamento-->
+                    <!-- Link que, ao ser clicado, abre uma nova aba ou janela do navegador. -->
+                    <!-- Botão que pode ser clicado para executar uma ação, como enviar um formulário. -->
+                    </p>
+                </div> 
+                <div class="card">
+                 <!-- div class="Divisão com uma classe específica, permitindo estilização via CSS." -->
 
- 
+                    <img src="https://br.web.img2.acsta.net/pictures/210/166/21016629_2013062820083878.jpg" width="200px" alt="Documentário">
+                    <!-- img="Imagem, onde 'src' é a URL da imagem e 'alt' fornece uma descrição alternativa." -->
+
+                    <h3>Invocação do mal <i class="bi bi-earbuds"></i></h3>
+                     
+                    <!-- h3="Subtítulo de nível 3, usado para seções ainda mais específicas."  --> 
+                     <!-- i="Usado para texto em itálico ou para ícones, dependendo do contexto."  --> 
 
                     <p> <!--p = "é usada para definir um parágrafo de texto-->
                         Invocação do Mal (título original: The Conjuring) é um filme de terror baseado em eventos reais, dirigido por James Wan e lançado em 2013. A trama acompanha o casal de demonologistas
                          Ed e Lorraine Warren (interpretados por Patrick Wilson e Vera Farmiga), que são chamados para ajudar a família Perron, atormentada por uma presença maligna em sua fazenda 
-                         isolada em Rhode Island na década de 1970.</p> <!--fechamento da tag-->
-                    <br> <!--br="serve para quebra linhas"--> <a href="https://youtu.be/GQrrXceHn2E?si=ZoGayKQH74ZSnCXI" target="_blank"> <button> 
+                         isolada em Rhode Island na década de 1970. 
+                        </p> <!--fechamento da p-->
+
+                    <br> <!--br="serve para quebra linhas"-->
+                    
+                    <a href="https://youtu.be/GQrrXceHn2E?si=ZoGayKQH74ZSnCXI" target="_blank"> <button> 
                         Trailer</button></a> 
-                        <!--a ="A tag <a> é usada para criar hyperlinks, permitindo que os usuários naveguem de uma página para outra ou para um recurso externo. </a> tag de fechamento"-->
-                            <!--href ="Atributo href: O atributo href especifica o URL (Uniform Resource Locator) do recurso que o link deve abrir."-->
-                            <!--target_blake="bre o link em uma nova aba." -->
-                            <!--button="Cria um botão clicável." </button>  tag de fechamento-->
-                        <br><!--br="serve para quebra linhas"--></p><!--FECHAMENTO DE TAG--> <br> <!--br="serve para quebra linhas"-->
+                         <!-- Link que, ao ser clicado, abre uma nova aba ou janela do navegador. -->
+                             <!-- Botão que pode ser clicado para executar uma ação, como enviar um formulário. -->
+                        
+                    </p>  <!--fechamento da p-->
+                        <br> <!--br="serve para quebra linhas"-->
                         
 
                         
 
-                        </div> <!--fechamento da div-->
+             </div> <!--fechamento da div-->
             </div> <!--fechamento da div-->
-        </section> <!--fechamento de tag-->
+        </section> <!--fechamento da tag section-->
 
         <section class="form-section">
+            <!-- section class="Seção com uma classe específica, usada para agrupar conteúdo tematicamente em um documento HTML. O atributo class permite 
+            aplicar estilos CSS ou manipular a seção com JavaScript." -->
+             
             <h2>Cadastre-se</h2>
+            <!-- h2="Subtítulo de nível 2, usado para seções ainda mais específicas."  --> 
+            
             <form>
+                <!-- form="Formulário que reúne campos de entrada para a coleta de informações do usuário."  -->
+
                 <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" placeholder="Seu nome" 
-                required>
+                 <!-- label="Rótulo vinculado a um campo de entrada, aprimorando a acessibilidade."  -->
+
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                 <!--  input="Campo onde o usuário pode inserir texto."  -->
 
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Seu e-mail"
-                 required>
+                 <!-- label="Rótulo vinculado a um campo de entrada, aprimorando a acessibilidade."  -->
+
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                 <!--  input="Campo onde o usuário pode inserir texto."  -->
 
                 <label for="filme">Fala seu filme favorito:</label>
-                <input type="text" id="filme" name="filme" 
-                placeholder="filme favorito" required>
+                 <!-- label="Rótulo vinculado a um campo de entrada, aprimorando a acessibilidade."  -->
+
+                <input type="text" id="filme" name="filme"placeholder="filme favorito" required>
+                <!--  input="Campo onde o usuário pode inserir texto."  -->
 
 
                 
                 
-                <button type="submit">Cadastrar</button>   <!--button=" Cria um botão clicável.
-             </button> "fechamneto de tag;"-->
+                <button type="submit">Cadastrar</button> 
+                <!-- Botão que pode ser clicado para executar uma ação, como enviar um formulário. -->
+             <!--Fechamento da tag button -->
+            
                 
-            </form>
-            </section> <!--fechamento da tag-->
+            </form> <!--Fechamento da tag form -->
+            </section> <!--Fechamento da tag section -->
            
         <section class="form-section"> <!--section class ="Define uma seção temática em um documento HTML. O atributo class permite 
             aplicar estilos CSS ou manipular a seção com JavaScript." -->
             <div id="user-list">
                 <h3>Usuários Cadastrados:</h3>
+                <!-- h2="Subtítulo de nível 2, usado para seções ainda mais específicas."  -->
                 <ul></ul>
-        </div>
-        </section> <!--fechamento-->
+                 <!-- ul="Lista não ordenada, utilizada para agrupar itens relacionados." -->
+                <!--Fechamento da tag ul -->
+
+        </div> <!--Fechamento da tag div--> 
+      
+        </section> <!--Fechamento d tag section-->
 
         
        
 
 <script src="scripit.js"></script>
-
+   <!-- Script JavaScript, usado para adicionar interatividade e funcionalidades dinâmicas à página. -->
+<!--fechamento da tag script-->
 
     <footer>
-        <p>Catálogo de Mídias &copy; 2024. Todos os direitos reservados.</p>
-    </footer>
+        <!-- foote"Seção inferior da página, normalmente inclui informações de copyright e links complementares."  -->
+        <p> <!--p = "é usada para definir um parágrafo de texto-->
+            Catálogo de Mídias &copy; 2024. Todos os direitos reservados.</p>
+        <!--Fechamento da tag p-->
+
+    </footer><!--Fechamento da tag footer-->
     <script src="js/scripit.js"></script>
+     <!-- Script JavaScript, usado para adicionar interatividade e funcionalidades dinâmicas à página. -->
+<!--fechamento da tag script-->
+
 
     
   
-</body> <!--fechamento-->
-</html> <!--fechamento-->
+</body> <!--Fechamento do corpo do body-->
+</html> <!--Fechamento do html-->
