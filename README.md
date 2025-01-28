@@ -116,19 +116,18 @@ git confing --global user.email aluno.senai.@gmail.com
 
 `Criar o par de chaves `
 ```
-C:\Users\Aluno> ssh-keygen
+ssh-keygen
 
-passphrase (empty for no passphrase): (coloque uma senha "observação a senha ficara invisivel") Enter
-
-Confirmar senha novamente: same passphrase again:(repita senha) Enter
+ssh keygen (Enter e digitar a senha duas vezes)
 
 ```
 
 ```
-\Users\Aluno> cd .\.ssh\
-shh> ls (para pegar a chave)
+cd .\.ssh\
+shh> 
+ls (para pegar a chave)
 cat id_ed25519.pub  `Enter`
-( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE5AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#my4EiPe aluno@LAB02-20)
+( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE84845AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#hgff6y77my4EiPe aluno@LAB02-20)
  
 cd .\documents\Workspace\Usuario.dev
 cd .\.git\ 
