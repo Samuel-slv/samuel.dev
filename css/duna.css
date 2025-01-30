@@ -47,6 +47,13 @@ h3{
 .category {
     margin-bottom: 20px;
 }
+.inf{
+    text-align:left;
+    margin-bottom: 20px ;
+    background: #478bd3;
+    padding: 12px;
+    border-radius: 12px;
+}
 
 .grid {
     display: flex;
