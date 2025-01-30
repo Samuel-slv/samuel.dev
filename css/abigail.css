@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #080808;
+    background-color: #000000;
     color: #fcfcfc;
 }
 
@@ -46,6 +46,14 @@ h3{
 
 .category {
     margin-bottom: 20px;
+}
+
+.inf{
+    text-align:justify;
+    margin-bottom: 20px ;
+    background: #478bd3;
+    padding: 12px;
+    border-radius: 12px;
 }
 
 .grid {
