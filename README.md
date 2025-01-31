@@ -163,8 +163,25 @@ git checkout develop
 git branch
 git pull origin develop
 
+
+git merge develo para sicroniza a master e a develop
+
+
+git checkout develop
+
+git branch main
+git branch
+
+git checkout main
+ls 
+
+it branch
+git pull origin develop
+
+git branch
 ``` 
 
 
 
 
+gfhs
