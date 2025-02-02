@@ -118,6 +118,9 @@ form select{
     margin-bottom: 15px;
     border: 1px solid #cccccc;
     border-radius: 5px;
+    background-color: #f3ff07;
+    color: #000000;
+    transition: border-color 0.3s;
 
 }
 form select:focus{
