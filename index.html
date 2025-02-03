@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    
+   
     <header>
         <h1>Catálogo de filmes</h1> 
         <p>Explore filmes, para assitir em familia ou amigos!</p>
@@ -131,10 +131,83 @@
 
                 <label for="filme">Fala seu filme favorito:</label>
                 <input type="text" id="filme" name="filme" 
-                placeholder="filme favorito" required>
-
-
+                placeholder="filme favorito" required>              
                 
+                 <select>
+                    <optgroup label="Grupo 1">
+                    <option></option>
+                    </optgroup>
+                    <optgroup label="Grupo 2">
+                    <option> Duna parte 2</option>
+                    <option> Deadpool & Wolverine</option>
+                    </optgroup>
+                    <optgroup label="Grupo 3" disabled>
+                    <option>Opeção Natal</option>
+                    <option>Abigail (2024)</option>
+                    <option>Lugar Silencioso dia um</option>
+                    <option> invocação do mal</option>
+                    </optgroup>
+                    </select>
+
+
+                senha:<input type=" passaword" name="senha">
+
+                <input type="checkbox" id=" fveiculo" name="fveiculo" value=" duna"> duna-parte-2
+                <input type="checkbox" id=" fveiculo" name="fveiculo" value=" duna"> Deadpool & Wolverine
+                <input type="checkbox" id=" fveiculo" name="fveiculo" value=" duna"> Opeção Natal
+                <input type="checkbox" id=" fveiculo" name="fveiculo" value=" duna"> Abigail 
+                <input type="checkbox" id=" fveiculo" name="fveiculo" value=" duna"> Lugar Silencioso dia um
+                <input type="checkbox" id=" fveiculo" name="fveiculo" value=" duna">  invocação do mal
+
+
+                    <textarea type="textarea" id="fobservação" name="fobservação"  rows="4"></textarea> 
+
+                    <label for="ftel">Telefnone:</label>
+                    <input type="tel" id="ftel" name="ftel" value="( ) 0000-0000">
+                    
+                    <label for="fsearch">Buscar:</label>
+
+                    <input type="search" id="fbuscar" name="fbuscar" value="Buscar">
+                    <label for="femail">Email:</label><br>
+                    
+                    <input type="email" id="femail" name="femail" value="email@site.com">
+                    <label for="furl">Url:</label>
+                    <input type="url" id="furl" name="furl" value="http://www.site.com.br">
+
+                    <label for="fdate">Data de Nascimento:</label><br>
+                    <input type="datetime" id="fdata" name="fdata" placeholder="__/__/____"><br>
+
+                    <label for="fdatetime-local">Data de Cadastro:</label><br>
+                    <input type="datetime-local" id="fdatetime-local" name="fdatetime-local" placeholder="dd/mm/aaaa --:--:00"><br>
+
+
+                    <label for="fweek">Semana:</label><br>
+                    <input type="week" id="fweek" name="fweek" placeholder=""><br>
+
+                    <label for="frange">Volume:</label><br>
+                    <input type="range" id="frange" name="frange" placeholder=""><br>
+
+                    <audio controls src="audio.mp3"></audio>
+
+                    <audio controls>
+	                <source src="horse.ogg" type="audio/ogg"> 
+                    <source src="horse.mp3" type="audio/mpeg">
+	                Seu navegar não suporta o elemento de audio.
+                    </audio>
+
+
+
+                    
+                    
+                    
+
+
+
+
+                    
+
+                    
+
                 
                 <button type="submit">Cadastrar</button>  
                 
@@ -149,20 +222,7 @@
         </section> 
 
 
-        <select>
-            <optgroup label="Grupo 1">
-            <option>Opção 1.1</option>
-            </optgroup>
-            <optgroup label="Grupo 2">
-            <option>Opção 2.1</option>
-            <option>Opção 2.2</option>
-            </optgroup>
-            <optgroup label="Grupo 3" disabled>
-            <option>Opção 3.1</option>
-            <option>Opção 3.2</option>
-            <option>Opção 3.3</option>
-            </optgroup>
-            </select>
+       
 
         
        
