@@ -49,7 +49,7 @@ body{
         text-align: center;   }
 
     .card  p:hover{
-        color: rgb(160, 255, 255);
+        color: rgb(98, 238, 129);
         font-size: 18px;
          margin: 0 11px 11px;
      }
@@ -81,57 +81,55 @@ body{
         font-size: 22px; 
 
     } 
-
-    .form-section{
-        background-color: #4e819e;
+    .form-section {
+        background: #4e819e;
         padding: 20px;
-        border: 1px solid #feffff;
+        border: 1px solid #ddd;
         border-radius: 8px;
-        box-shadow:0 4px 6px rgb(0, 0, 0) ;
+        box-shadow: 0 4px 6px rgba(rgb(0, 0, 0));
+        max-width: 400px;
         margin: 20px auto;
         text-align: center;
-
     }
-
-    form{
-    display: flex;
-    flex-direction: column;    
+    
+    form {
+        display: flex;
+        flex-direction: column;
     }
-
-    form label{
-        margin-bottom: 5%;
+    
+    form label {
+        margin-bottom: 5px;
         font-weight: bold;
     }
-
-    form input{
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #feffff;
+    
+    form input {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #cccccc;
         border-radius: 5px;
-
     }
-
-    form button{
-        padding: 10px;
-        background-color: aquamarine;
-        color: rgb(0, 0, 0);
+    
+    form button {
+        padding: 14px;
+        background-color: #cf2a46a8;
+        color: rgb(226, 217, 217);
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        font-size: 16px;
-
+        font-size: 18px;
     }
-
     strong{
-        color: yellow;
+        color: #eeff07;
     }
-
-    form button:hover{
-        color: aqua;
+    form button:hover {
+        background-color: #159aac;
     }
-
-    footer{
-        background-color: blue;
+    
+    footer {
+        background-color: #0b5ac2;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
     }
-
-
+    

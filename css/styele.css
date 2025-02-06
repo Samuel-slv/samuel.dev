@@ -90,12 +90,12 @@ h3{
     color: #ffffff;
     margin: 0 10px 10px;
     
-}
+}  
 
 .form-section {
     background: #4e819e;
-    padding: 20px;
-    border: 1px solid #ddd;
+    padding: 2px;
+    border: 12px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(rgb(0, 0, 0));
     max-width: 400px;
