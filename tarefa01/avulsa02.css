@@ -76,6 +76,14 @@ body{
         height: auto;
     }
 
+    .card p {
+        color: #eeff07;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        font-size:  medium;
+        
+
+    }
+
     .card h3 {
         margin: 10px 0;
         font-size: 22px; 
