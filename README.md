@@ -153,28 +153,30 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 
 ```
 
-``git branch ``
+git branch 
 
  (Este comando lista todos os branches (ramificações) locais no repositório)
 
-``git branch develop``
+git branch develop
 
 (Este comando cria um novo branch chamado develop. No entanto, você ainda não está nesse branch; você apenas o criou.)
 
-``git branch``
+git branch
 
 (Este comando é executado novamente para listar os branches. Agora, você verá o novo branch develop na lista.)
 
-``git checkout develop``
+git checkout develop
 
 Este comando muda o branch atual para o branch develop. A partir deste ponto, qualquer alteração que você fizer será feita no branch develop.
 
 
-``git branch``
+ ```
+ git branch
+ ```
 
 (Este comando é executado novamente para listar os branches. O branch atual agora é develop, indicado pelo asterisco.)
 
-``git pull origin develop``
+git pull origin develop
 
 Este comando busca (fetch) e mescla (merge) as alterações do branch develop no repositório remoto (chamado origin) para o branch develop local. Isso é útil para garantir que seu branch local esteja atualizado com as últimas alterações feitas por outros colaboradores no repositório remoto.
 
