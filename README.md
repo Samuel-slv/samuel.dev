@@ -127,15 +127,12 @@ ssh keygen (Enter e digitar a senha duas vezes)
 ```
 cd .\.ssh\
 shh> 
-ls (para pegar a chave)
-cat id_ed25519.pub  `Enter`
-( Chave pub gerada: ssh-ed25519 AAAA^^C3NzaC1lZDI1NTE84845AAAAIMfgUvbfdRtel3#ma4xJNaYVug4nyw/qG7z/QCxR1#hgff6y77my4EiPe aluno@LAB02-20)
+ls         (para pegar a chave)
+cat id_ed525519.pub  "Enter"
+( Chave pub gerada: ssh-ed25519 
  
-cd .\documents\Workspace\Usuario.dev
-cd .\.git\ 
-ls
-\Documents\Workspace\Usuario.dev\.git> cat .\config (para puxar a pasta)
-cd ..
+cd . navegue até sua pasta
+
 code .
 
 ```
@@ -186,13 +183,13 @@ git branch
 ### Capitulo 6 - Como Mesclar Branches no GitHub
 ```
 
-git main                        (brench atual)
+git main                      (brench atual)
 
-git chekout develop             (nesse caso você vai mundar a sua branch atual, e muda para outra brench que você tem no GITHUB)
+git chekout develop           (nesse caso você vai mundar a sua atual, e muda para outra brench que você tem no GITHUB)
 
-git merge main                  (Para puchar os arquivos da brench main para develop)
+git merge main                (Para puchar os arquivos da brench main para develop)
 
-git push -u origin develop      (Para atualizar o repositorio no Github) 
+git push -u origin develop    (Para atualizar o repositorio no Github) 
 
 
 ```
