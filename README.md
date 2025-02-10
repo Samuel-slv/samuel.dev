@@ -183,7 +183,18 @@ git branch
 
 
 
-2
-a:hover 
+### Capitulo 6 - Como Mesclar Branches no GitHub
+```
 
-text decoration underline ppp .
+git main                        (brench atual)
+
+git chekout develop             (nesse caso você vai mundar a sua branch atual, e muda para outra brench que você tem no GITHUB)
+
+git merge main                  (Para puchar os arquivos da brench main para develop)
+
+git push -u origin develop      (Para atualizar o repositorio no Github) 
+
+
+```
+
+
