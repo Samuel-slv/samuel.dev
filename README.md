@@ -127,7 +127,7 @@ ssh keygen (Enter e digitar a senha duas vezes)
 ```
 cd .\.ssh\
 shh> 
-ls         (para pegar a chave)
+ls    (para pegar a chave)
 cat id_ed525519.pub  "Enter"
 ( Chave pub gerada: ssh-ed25519 
  
@@ -148,7 +148,7 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 ```
 
 
-### Capitulo 5 - TROCANDO MENSAGEM DE ENVIO  ORIGIN MASTER PARA ORIGIN DEVOLOPE OU QUALQUER OUTRO NOME DE SUA PREFERECIA 
+### Capitulo 5 - Criação e Atualização de Branch de Desenvolvimento 
 
 
 ```
@@ -169,10 +169,7 @@ git checkout develop
 
 Este comando muda o branch atual para o branch develop. A partir deste ponto, qualquer alteração que você fizer será feita no branch develop.
 
-
- ```
- git branch
- ```
+git branch
 
 (Este comando é executado novamente para listar os branches. O branch atual agora é develop, indicado pelo asterisco.)
 
