@@ -57,20 +57,20 @@ git push -u origin master
 
 `
 <p align= "left"> Clique no  perfil no canto da tela.</p>> 
-<img src="docs/imagens/direrto no perfil.png" alt=""  widht="300"></p>
+<img src="imagens/direrto no perfil.png" alt=""  widht="300"></p>
 
 
 <p align= "left">Clique no seu perfil</p>
 
-<img src="docs/imagens/Captura de tela 2025-01-23 083921.png" width="400" alt=""> 
+<img src="imagens/Captura de tela 2025-01-23 083921.png" width="400" alt=""> 
 <br> 
 
 <p align= "left">Clique em repositorio e depois em novo/new para criar.</p>
- <img src="docs/imagens/Captura de tela 2025-01-23 082817.png" width="400" alt="">  <br>
+ <img src="imagens/Captura de tela 2025-01-23 082817.png" width="400" alt="">  <br>
 
 <p>Aqui você vai escolher o nome do projento, depois você dar uma descrição ou não.
 Depois você escolher se o seu repositorio seja publico ou privado, e depois clique em criar repositorio.</p>
- <img src="docs/imagens/Captura de tela 2025-01-23 090102.png" width="400" alt="">
+ <img src="imagens/Captura de tela 2025-01-23 090102.png" width="400" alt="">
 
 
 
