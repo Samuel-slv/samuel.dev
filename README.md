@@ -10,9 +10,10 @@
  <img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" > 
  <br>
 <p align= "left"> 
+<img src="imagens/Primeira 2025-01-22 112927.png" width="600" alt=""> 
  <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
   </p> 
-<img src="imagens/Primeira 2025-01-22 112927.png" width="600" alt=""> 
+
 
 
 ### Configuração no terminal  do computador 
