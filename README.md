@@ -22,38 +22,31 @@
 git  --version (Esse comando retornará a versão do Git que está instalada. Por exemplo, a saída pode ser algo como:git version 2.34.1 )
 
 git config--global user.name "Usuario"
+git config --global user.email  aluno.senai.br
 
-
-git confing --global user.email  aluno.senai.br
-
-shh-keygen (Criador de senhar)
-
-cd. (Para entrar)  cd..(Para voltar)
-
+ssh-keygen (Gerador de Senhas)
+ls
 cd. \Nome da pasta\projeto (Use o comando "cd" para navegar ate as 
 paginas do codigos)
-
 ls  (Ver pastas já exixtentes)
-
 cat .shh/id_ pub
-
-cd.. (Para sair do projento)
+cd.. (Para sair do diretório atual)
 
 ```
 ### Comandos Administrativos do Git no Windows
 
 ``` 
-git init 
-git status
-git add index.html or git add .
-git commit -m "Mensagem do desenvolvedor"  ex: "update file README"
-git push -u origin master
+git init                                                                (Cria um novo repositório Git no sistema)  
+git status                                                              (Mostra o status atual do repositório e as alterações não rastreadas)
+git add index.html or git add .                                         (Inclui arquivos específicos ou todos para a próxima confirmação)                                       
+git commit -m "Mensagem do desenvolvedor"  ex: "update file README"     (Registra as alterações com uma mensagem descritiva)
+git push -u origin master                                               (Carrega as alterações locais para o repositório remoto no GitHub)                            
 ```
 
-## capitulo 2 - Criando repositorio do git 
+### Capitulo 2 - Criando repositorio do git 
 
-`
-<p align= "left"> Clique no  perfil no canto da tela.</p>> 
+
+<p align= "left"> Clique no  perfil no canto da tela.</p>
 <img src="imagens/direrto no perfil.png" alt=""  widht="300"></p>
 
 
@@ -65,8 +58,7 @@ git push -u origin master
 <p align= "left">Clique em repositorio e depois em novo/new para criar.</p>
  <img src="imagens/Captura de tela 2025-01-23 082817.png" width="400" alt="">  <br>
 
-<p>Aqui você vai escolher o nome do projento, depois você dar uma descrição ou não.
-Depois você escolher se o seu repositorio seja publico ou privado, e depois clique em criar repositorio.</p>
+<p>"Por favor, siga as orientações e complete o acordo com sua escolha."</p>
  <img src="imagens/Captura de tela 2025-01-23 090102.png" width="400" alt="">
 
 
@@ -86,42 +78,30 @@ git push -u origin master
 
 ### Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 
-
+Instalar Git  <p align="left"> <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>  </p>
+<p></p>Reiniciar computador
+Instalar Visual Code Studio<//p>
 
 ``` 
-git version 
-ls
-cd \ documents\
-\Users\Aluno\Documents> mkdir workspace
-\Users\Aluno\Documents>  cd .\workspace\
+git --version 
+
+cd  \ documents\
+\Documents> mkdir workspace
+\Documents>  cd .\workspace\
 
  git clone(código do GitHub) https://github.com/Usuario22/Usuario.dev.git 
-
 ls para ver se a pasta foi criada 
-
 cd ../.. para  voltar ate o inicio antes de documents
-```
 
+Comando de indetifição:
 
-
-`COMANDO DE INDETIFICAÇÃO`
-
-``` 
 git confing --global user.name "Nome do Usuario"
 git confing --global user.email aluno.senai.@gmail.com
 
-```
-
-
-`Criar o par de chaves `
-```
 ssh-keygen
-
 ssh keygen (Enter e digitar a senha duas vezes)
 
-```
 
-```
 cd .\.ssh\
 shh> 
 ls    (para pegar a chave)
@@ -132,10 +112,6 @@ cd . navegue até sua pasta
 
 code .
 
-```
-
-
- 
 ```
 Clique na tecla Windows, e pesquisar gerenciador de credenciais.
 Ir em o Windows e apagar o git)
