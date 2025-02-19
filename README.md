@@ -1,22 +1,18 @@
- fff 
+  
  
  # MANUAL DE UITLIZAÇÃO DO SISTEMA/SITE
 ## CAPITULO 1 - Configuração do git no computador 
 ### instalação Git
-<style>
-p{
-  font-family: Arial, Helvetica, sans-serif;
-  color 
-}
 
- </style>
+
+
 <p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
- <img src="docs/imagens/Primeira 2025-01-22 112927.png" alt="" width="600" > 
+ <img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" > 
  <br>
 <p align= "left"> 
-Clique  aqui para fazer downloand do git, como a imagem Mostra<a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
+ <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
   </p> 
-<img src="docs/imagens/Captura de tela 2025-01-23 101856.png" width="600" alt=""> 
+<img src="imagens/Primeira 2025-01-22 112927.png" width="600" alt=""> 
 
 
 ### Configuração no terminal  do computador 
