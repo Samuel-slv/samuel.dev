@@ -10,7 +10,7 @@
  <img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" > 
  <br>
 <p align= "left"> 
-<img src="imagens/Primeira 2025-01-22 112927.png" width="600" alt=""> 
+<img src="imagens/Primeira 2025-01-22 112927.png" width="600" alt=""> <br>
  <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
   </p> 
 
@@ -78,7 +78,7 @@ git push -u origin master
 
 ### Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 <p align="left">
-Instalar Git  <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a> <br>
+Instalar o Git  <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a> <br>
 Reiniciar computador <br>
 Instalar Visual Code Studio</p>
 
@@ -86,53 +86,41 @@ Instalar Visual Code Studio</p>
 ``` 
 1. Vereficar a veersão do git
 git --version 
-```
-```
+
+
 02. Navegue até a pasta Documentse crie um diretório chamado workspace:
 
 cd \Documents\
 mkdir workspace
 cd .\workspace\
-```
-```
+
 03. Clonar um Repositório do Git
- git clone https://github.com/Usuario22/Usuario.dev.git
-```
-```
-```
-4. Verifique a Criação da Pasta:
+git clone https://github.com/Usuario22/Usuario.dev.git
+
+
+04. Verifique a Criação da Pasta:
 Use o comando <strong>"ls"</strong> para listar os diretórios e confirmar que a pasta foi criada.
+Para retornar ao diretório inicial antes de Documents, use:cd../..
 
-Para retornar ao diretório inicial antes de Documents, use:<strong>cd../..</strong> 
-```
 05. Configurar informações do usuário:
-
 git config --global user.name "Nome do Usuario"
 git config --global user.email "aluno.senai@gmail.com"
-```
-```
+
 06. Criar uma Nova Chave.
 Gere uma nova chave SSH com o seguinte comando:
 ssh-keygen
  Pressione Enter e digite a senha duas vezes quando solicitado.
-```
 
-```
 cd .\.ssh\ 
 ls    (para listar os arquivos e verificar a chave gerada:)
 
-```
-```
 07.Volte para o diretório desejado:
 cd..
-```
-```
-07.Exibir a Chave Pública:
-Para visualizar a chave pública gerada, use: cat id_ed25519.pub 
-```
 
-```
-08. Abra o código do Visual Studio
+08.Exibir a Chave Pública:
+Para visualizar a chave pública gerada, use: cat id_ed25519.pub 
+
+09. Abra o código do Visual Studio
 code .
 
 No VScode: instaler o GitHub copillot e GitHub Pull Requests
@@ -144,10 +132,9 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 
 
 ```
-
 git branch 
 
- (Este comando lista todos os branches (ramificações) locais no repositório)
+(Este comando lista todos os branches (ramificações) locais no repositório)
  ```
 ```
 git branch develop
@@ -174,13 +161,6 @@ git pull origin develop
 
 Este comando busca (fetch) e mescla (merge) as alterações do branch develop no repositório remoto (chamado origin) para o branch develop local. Isso é útil para garantir que seu branch local esteja atualizado com as últimas alterações feitas por outros colaboradores no repositório remoto.
 ```
-
-
-
-
-
-``` 
-
 
 
 ### Capitulo 6 - Como Mesclar Branches no GitHub
