@@ -9,10 +9,10 @@
 <p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
 <img src="imagens/imagem22(1).png" width="600" alt="">
  <br>
-<p align= "left">  Faça o download
-<img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" >  <br>
- <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
-  </p> 
+<p align= "left">  Faça o download </p> 
+<spaw><img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" >  <br>
+ <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a> </spaw>
+  
 
 
 
@@ -84,7 +84,7 @@ Instalar Visual Code Studio</p>
 
 
 ``` 
-1. Vereficar a veersão do git
+1. Vereficar a versão do git
 git --version 
 ```
 ```
@@ -100,7 +100,7 @@ git clone https://github.com/Usuario22/Usuario.dev.git
 ```
 04. Verifique a Criação da Pasta:
 Use o comando "ls" para listar os diretórios e confirmar que a pasta foi criada.
-Para retornar ao diretório inicial antes de Documents, use:cd../..
+Para retornar ao diretório inicial antes de Documents, use: cd../..
 ```
 ```
 05. Configurar informações do usuário:
