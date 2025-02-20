@@ -86,44 +86,53 @@ Instalar Visual Code Studio</p>
 ``` 
 1. Vereficar a veersão do git
 git --version 
-
-
+```
+```
 02. Navegue até a pasta Documentse crie um diretório chamado workspace:
 cd \Documents\
 mkdir workspace
 cd .\workspace\
-
+```
+```
 03. Clonar um Repositório do Git:
 git clone https://github.com/Usuario22/Usuario.dev.git
-
+```
+```
 04. Verifique a Criação da Pasta:
 Use o comando "ls" para listar os diretórios e confirmar que a pasta foi criada.
 Para retornar ao diretório inicial antes de Documents, use:cd../..
-
+```
+```
 05. Configurar informações do usuário:
 git config --global user.name "Nome do Usuario"
 git config --global user.email "aluno.senai@gmail.com"
-
+```
+```
 06. Criar uma Nova Chave.
 Gere uma nova chave SSH com o seguinte comando:
 
 ssh-keygen    (Pressione Enter e digite a senha duas vezes quando solicitado.)
 cd .\.ssh\ 
 ls            (para listar os arquivos e verificar a chave gerada:)
-
+```
+```
 07.Volte para o diretório desejado:
 cd..
-
+```
+```
 08.Exibir a Chave Pública:
 Para visualizar a chave pública gerada, use: cat id_ed25519.pub 
-
+```
+```
 09. Adicionar a Chave Pública ao Servidor.
 Depois de copiar a chave pública, você deve adicioná-la ao servidor remoto (por exemplo, GitHub, GitLab, etc.):
-
+```
+```
 a)Acesse as configurações de SSH no seu perfil do serviço.
 b)Cole a chave pública no campo apropriado.
 c)Salve as alterações.
-
+```
+```
 10. Abra o código do Visual Studio
 code .
 
