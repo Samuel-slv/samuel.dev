@@ -89,14 +89,12 @@ git --version
 
 
 02. Navegue até a pasta Documentse crie um diretório chamado workspace:
-
 cd \Documents\
 mkdir workspace
 cd .\workspace\
 
 03. Clonar um Repositório do Git
 git clone https://github.com/Usuario22/Usuario.dev.git
-
 
 04. Verifique a Criação da Pasta:
 Use o comando <strong>"ls"</strong> para listar os diretórios e confirmar que a pasta foi criada.
@@ -108,9 +106,7 @@ git config --global user.email "aluno.senai@gmail.com"
 
 06. Criar uma Nova Chave.
 Gere uma nova chave SSH com o seguinte comando:
-ssh-keygen
- Pressione Enter e digite a senha duas vezes quando solicitado.
-
+ssh-keygen (Pressione Enter e digite a senha duas vezes quando solicitado.)
 cd .\.ssh\ 
 ls    (para listar os arquivos e verificar a chave gerada:)
 
