@@ -10,8 +10,8 @@
 <img src="imagens/imagem22(1).png" width="600" alt="">
  <br>
 <p align= "left">  Faça o download </p> 
-<spaw><img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" >  <br>
- <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a> </spaw>
+<img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" >  
+ <strong> <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>  <strong>
   
 
 
@@ -58,7 +58,7 @@ git push -u origin master                                               (Carrega
 <p align= "left">Clique em repositorio e depois em novo/new para criar.</p>
  <img src="imagens/Captura de tela 2025-01-23 082817.png" width="400" alt="">  <br>
 
-<p>"Por favor, siga as orientações e complete o acordo com sua escolha."</p>
+<p>Por favor, siga as orientações e complete de acordo com sua escolha.</p>
  <img src="imagens/Captura de tela 2025-01-23 090102.png" width="400" alt="">
 
 
@@ -78,9 +78,9 @@ git push -u origin master
 
 ### Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 <p align="left">
-Instalar o  <a href="https://git-scm.com/downloads/win" target="_blank"> GIT </a> <br>
+Instalar o  <a href="https://git-scm.com/downloads/win" target="_blank"> GIT</a> <br>
 Reiniciar computador <br>
-Instalar Visual Code Studio</p>
+Instalar Visual Code Studio</p> <br>
 
 
 ``` 
@@ -152,7 +152,8 @@ git branch
 ```
 git branch develop
 
-(Este comando cria um novo branch chamado develop. No entanto, você ainda não está nesse branch; você apenas o criou.)
+(Este comando cria um novo branch chamado develop. No entanto,
+ você ainda não está nesse branch; você apenas o criou.)
 ```
 ```
 git branch
