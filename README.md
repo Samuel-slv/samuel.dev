@@ -7,10 +7,10 @@
 
 
 <p align="left">Escolhar o sistema Operacional da sua maquina, e faça downloand.</p>
- <img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" > 
+<img src="imagens/Primeira 2025-01-22 112927.png" width="600" alt="">
  <br>
 <p align= "left"> 
-<img src="imagens/Primeira 2025-01-22 112927.png" width="600" alt=""> <br>
+<img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" >  <br>
  <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
   </p> 
 
