@@ -132,6 +132,7 @@ b)Cole a chave pública no campo apropriado.
 c)Salve as alterações.
 
 ```
+```
 10. Abra o código do Visual Studio
 code .
 
