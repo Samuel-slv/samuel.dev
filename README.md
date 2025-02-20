@@ -126,12 +126,11 @@ Para visualizar a chave pública gerada, use: cat id_ed25519.pub
 ```
 09. Adicionar a Chave Pública ao Servidor.
 Depois de copiar a chave pública, você deve adicioná-la ao servidor remoto (por exemplo, GitHub, GitLab, etc.):
-```
-```
+  
 a)Acesse as configurações de SSH no seu perfil do serviço.
 b)Cole a chave pública no campo apropriado.
 c)Salve as alterações.
-```
+
 ```
 10. Abra o código do Visual Studio
 code .
