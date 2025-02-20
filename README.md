@@ -78,7 +78,7 @@ git push -u origin master
 
 ### Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 <p align="left">
-Instalar o Git  <a href="https://git-scm.com/downloads/win" target="_blank"> GIT </a> <br>
+Instalar o  <a href="https://git-scm.com/downloads/win" target="_blank"> GIT </a> <br>
 Reiniciar computador <br>
 Instalar Visual Code Studio</p>
 
