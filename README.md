@@ -78,44 +78,62 @@ git push -u origin master
 
 ### Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 <p align="left">
-Instalar Git  <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>
+Instalar Git  <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a> <br>
 Reiniciar computador <br>
 Instalar Visual Code Studio</p>
 
 
 ``` 
+1. Vereficar a veersão do git
 git --version 
+```
+```
+02. Navegue até a pasta Documentse crie um diretório chamado workspace:
 
-cd  \ documents\
-\Documents> mkdir workspace
-\Documents>  cd .\workspace\
+cd \Documents\
+mkdir workspace
+cd .\workspace\
+```
+```
+03. Clonar um Repositório do Git
+ git clone https://github.com/Usuario22/Usuario.dev.git
+```
+```
+```
+4. Verifique a Criação da Pasta:
+Use o comando <strong>"ls"</strong> para listar os diretórios e confirmar que a pasta foi criada.
 
- git clone(código do GitHub) https://github.com/Usuario22/Usuario.dev.git 
-ls para ver se a pasta foi criada 
-cd ../.. para  voltar ate o inicio antes de documents
+Para retornar ao diretório inicial antes de Documents, use:<strong>cd../..</strong> 
+```
+05. Configurar informações do usuário:
 
-Comando de indetifição:
-
-git confing --global user.name "Nome do Usuario"
-git confing --global user.email aluno.senai.@gmail.com
-
+git config --global user.name "Nome do Usuario"
+git config --global user.email "aluno.senai@gmail.com"
+```
+```
+06. Criar uma Nova Chave.
+Gere uma nova chave SSH com o seguinte comando:
 ssh-keygen
-ssh keygen (Enter e digitar a senha duas vezes)
-
-
-cd .\.ssh\
-shh> 
-ls    (para pegar a chave)
-cat id_ed525519.pub  "Enter"
-( Chave pub gerada: ssh-ed25519 
- 
-cd . navegue até sua pasta
-
-code .
+ Pressione Enter e digite a senha duas vezes quando solicitado.
+```
 
 ```
-Clique na tecla Windows, e pesquisar gerenciador de credenciais.
-Ir em o Windows e apagar o git)
+cd .\.ssh\ 
+ls    (para listar os arquivos e verificar a chave gerada:)
+
+```
+```
+07.Volte para o diretório desejado:
+cd..
+```
+```
+07.Exibir a Chave Pública:
+Para visualizar a chave pública gerada, use: cat id_ed25519.pub 
+```
+
+```
+08. Abra o código do Visual Studio
+code .
 
 No VScode: instaler o GitHub copillot e GitHub Pull Requests
 
@@ -130,26 +148,32 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 git branch 
 
  (Este comando lista todos os branches (ramificações) locais no repositório)
-
+ ```
+```
 git branch develop
 
 (Este comando cria um novo branch chamado develop. No entanto, você ainda não está nesse branch; você apenas o criou.)
-
+```
+```
 git branch
 
 (Este comando é executado novamente para listar os branches. Agora, você verá o novo branch develop na lista.)
-
+```
+```
 git checkout develop
 
 Este comando muda o branch atual para o branch develop. A partir deste ponto, qualquer alteração que você fizer será feita no branch develop.
-
+```
+```
 git branch
 
 (Este comando é executado novamente para listar os branches. O branch atual agora é develop, indicado pelo asterisco.)
-
+```
+```
 git pull origin develop
 
 Este comando busca (fetch) e mescla (merge) as alterações do branch develop no repositório remoto (chamado origin) para o branch develop local. Isso é útil para garantir que seu branch local esteja atualizado com as últimas alterações feitas por outros colaboradores no repositório remoto.
+```
 
 
 
@@ -160,17 +184,20 @@ Este comando busca (fetch) e mescla (merge) as alterações do branch develop no
 
 
 ### Capitulo 6 - Como Mesclar Branches no GitHub
+
 ```
-
-git main                      (brench atual)
-
-git chekout develop           (nesse caso você vai mundar a sua atual, e muda para outra brench que você tem no GITHUB)
-
-git merge main                (Para puchar os arquivos da brench main para develop)
-
+git main                      (brench atual) 
+```
+```
+git chekout develop  
+(nesse caso você vai mundar a sua atual, e muda para outra brench que você tem no GITHUB)
+```
+```
+git merge main 
+(Para puchar os arquivos da brench main para develop)
+```
+```
 git push -u origin develop    (Para atualizar o repositorio no Github) 
-
-
 ```
 
 
