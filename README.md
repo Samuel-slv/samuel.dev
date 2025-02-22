@@ -11,7 +11,7 @@
  <br>
 <p align= "left">  Faça o download </p> 
 <img src="imagens/Captura de tela 2025-01-23 101856.png" alt="" width="600" >  
- <strong> <a href="https://git-scm.com/downloads/win" target="_blank"> downloand </a>  <strong>
+ <strong> <a href="https://git-scm.com/downloads/win" target="_blank"> downloand do GIT </a>  <strong>
   
 
 
@@ -19,7 +19,8 @@
 ## Configuração no terminal  do computador 
 
 ```
-git  --version (Esse comando retornará a versão do Git que está instalada. Por exemplo, a saída pode ser algo como:git version 2.34.1 )
+git  --version (Esse comando retornará a versão do Git que está instalada.
+ Por exemplo, a saída pode ser algo como:git version 2.34.1 )
 
 git config--global user.name "Usuario"
 git config --global user.email  aluno.senai.br
@@ -36,11 +37,25 @@ cd.. (Para sair do diretório atual)
 ## Comandos Administrativos do Git no Windows
 
 ``` 
-git init                                                                (Cria um novo repositório Git no sistema)  
-git status                                                              (Mostra o status atual do repositório e as alterações não rastreadas)
-git add index.html or git add .                                         (Inclui arquivos específicos ou todos para a próxima confirmação)                                       
-git commit -m "Mensagem do desenvolvedor"  ex: "update file README"     (Registra as alterações com uma mensagem descritiva)
-git push -u origin master                                               (Carrega as alterações locais para o repositório remoto no GitHub)                            
+# git init 
+
+(Cria um novo repositório Git no sistema)
+
+# git status
+
+(Mostra o status atual do repositório e as alterações não rastreadas)
+
+# git add index.html or git add .  
+
+(Inclui arquivos específicos ou todos para a próximo confirmação)   
+                                    
+# git commit -m "Mensagem do desenvolvedor"  ex: "update file README"
+
+(Registra as alterações com uma mensagem descritiva)
+
+# git push -u origin master 
+
+ (Carrega as alterações locais para o repositório remoto no GitHub)                            
 ```
 
 ## Capitulo 2 - Criando repositorio do git 
@@ -132,7 +147,8 @@ Para visualizar a chave pública gerada, use: cat id_ed25519.pub
 ```
 ```
 # 09. Adicionar a Chave Pública ao Servidor.
-Depois de copiar a chave pública, você deve adicioná-la ao servidor remoto (por exemplo, GitHub, GitLab, etc.):
+Depois de copiar a chave pública, você deve adicioná-la ao servidor remoto
+ (por exemplo, GitHub, GitLab, etc.):
   
 # a)Acesse as configurações de SSH no seu perfil do serviço.
 # b)Cole a chave pública no campo apropriado.
@@ -154,53 +170,65 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 
 
 ```
-git branch 
+# git branch 
 
 (Este comando lista todos os branches (ramificações) locais no repositório)
  ```
 ```
-git branch develop
+# git branch develop
 
 (Este comando cria um novo branch chamado develop. No entanto,
  você ainda não está nesse branch; você apenas o criou.)
 ```
 ```
-git branch
+#git branch
 
-(Este comando é executado novamente para listar os branches. Agora, você verá o novo branch develop na lista.)
+(Este comando é executado novamente para listar os branches.
+ Agora, você verá o novo branch develop na lista.)
 ```
 ```
-git checkout develop
+# git checkout develop
 
-Este comando muda o branch atual para o branch develop. A partir deste ponto, qualquer alteração que você fizer será feita no branch develop.
+Este comando muda o branch atual para o branch develop. A partir deste ponto,
+ qualquer alteração que você fizer será feita no branch develop.
 ```
 ```
-git branch
+# git branch
 
-(Este comando é executado novamente para listar os branches. O branch atual agora é develop, indicado pelo asterisco.)
+(Este comando é executado novamente para listar os branches.
+ O branch atual agora é develop, indicado pelo asterisco.)
 ```
 ```
-git pull origin develop
+# git pull origin develop
 
-Este comando busca (fetch) e mescla (merge) as alterações do branch develop no repositório remoto (chamado origin) para o branch develop local. Isso é útil para garantir que seu branch local esteja atualizado com as últimas alterações feitas por outros colaboradores no repositório remoto.
+Este comando busca (fetch) e mescla (merge) as alterações do branch develop no repositório remoto
+(chamado origin) para o branch develop local. Isso é útil para 
+garantir que seu branch local esteja atualizado com as últimas 
+alterações feitas por outros colaboradores no repositório remoto.
 ```
 
 
 ### Capitulo 6 - Como Mesclar Branches no GitHub
 
 ```
-git main                      (brench atual) 
+# git main                     
+
+ (brench atual) 
 ```
 ```
-git chekout develop  
-(nesse caso você vai mundar a sua atual, e muda para outra brench que você tem no GITHUB)
+# git chekout develop  
+
+(nesse caso você vai mundar a sua atual, e muda para outra 
+brench que você tem no GITHUB)
 ```
 ```
-git merge main 
+# git merge main 
 (Para puchar os arquivos da brench main para develop)
 ```
 ```
-git push -u origin develop    (Para atualizar o repositorio no Github) 
+# git push -u origin develop    
+
+(Para atualizar o repositorio no Github) 
 ```
 
 
