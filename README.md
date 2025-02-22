@@ -16,7 +16,7 @@
 
 
 
-### Configuração no terminal  do computador 
+## Configuração no terminal  do computador 
 
 ```
 git  --version (Esse comando retornará a versão do Git que está instalada. Por exemplo, a saída pode ser algo como:git version 2.34.1 )
@@ -33,7 +33,7 @@ cat .shh/id_ pub
 cd.. (Para sair do diretório atual)
 
 ```
-### Comandos Administrativos do Git no Windows
+## Comandos Administrativos do Git no Windows
 
 ``` 
 git init                                                                (Cria um novo repositório Git no sistema)  
@@ -43,7 +43,7 @@ git commit -m "Mensagem do desenvolvedor"  ex: "update file README"     (Registr
 git push -u origin master                                               (Carrega as alterações locais para o repositório remoto no GitHub)                            
 ```
 
-### Capitulo 2 - Criando repositorio do git 
+## Capitulo 2 - Criando repositorio do git 
 
 
 <p align= "left"> Clique no  perfil no canto da tela.</p>
@@ -64,7 +64,7 @@ git push -u origin master                                               (Carrega
 
 
 
-### Capitulo 3 # - Subindo arquivos no GIthub
+## Capitulo 3 # - Subindo arquivos no GIthub
 ``` 
 git status 
 git add . 
@@ -76,7 +76,7 @@ git push -u origin master
 
 
 
-### Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
+## Capitulo 4 - TRABALHANDO COM O MESMO REPOSITÓRIO DO GITHUB EM COMPUTADORES DIFERENTES.
 <p align="left">
 Instalar o  <a href="https://git-scm.com/downloads/win" target="_blank"> GIT</a> <br>
 Reiniciar computador <br>
@@ -87,11 +87,10 @@ Instalar Visual Code Studio</p> <br>
 
 
 ``` 
-<<<<<<< HEAD
+
 # 01. Vereficar a veersão do git
-=======
+
 1. Vereficar a versão do git
->>>>>>> d7ac30639c7ea51f94fa3563d2a5e1ef4d2849ae
 git --version 
 ```
 ```
@@ -107,7 +106,8 @@ git clone https://github.com/Usuario22/Usuario.dev.git
 ```
 # 04. Verifique a Criação da Pasta:
 Use o comando "ls" para listar os diretórios e confirmar que a pasta foi criada.
-Para retornar ao diretório inicial antes de Documents, use: cd../..
+Para retornar ao diretório inicial antes de Documents, use:
+ cd../..
 ```
 ```
 # 05. Configurar informações do usuário:
@@ -150,7 +150,7 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 # 10. Abra o código do Visual Studio
 
 
-### Capitulo 5 - Criação e Atualização de Branch de Desenvolvimento 
+## Capitulo 5 - Criação e Atualização de Branch de Desenvolvimento 
 
 
 ```
