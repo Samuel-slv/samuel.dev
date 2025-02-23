@@ -163,7 +163,7 @@ No VScode: instaler o GitHub copillot e GitHub Pull Requests
 
 ```
 
-# 10. Abra o código do Visual Studio
+
 
 
 ## Capitulo 5 - Criação e Atualização de Branch de Desenvolvimento 
